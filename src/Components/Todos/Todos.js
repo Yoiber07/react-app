@@ -1,27 +1,19 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import MenuLateral from '../MenuLateral'
+import Sedes from '../Sedes/Sedes'
 
 
 
 const Todos = () => {
     return (
-    
+        <div>
+        <MenuLateral />
         <div className="container-flex border contenedorPrincipal" >
-        <div className="row no-gutters">
-            <div className="col-20 m-auto">
-        <div className="col-20 m-auto">
-        <ul className="nav nav-pills mb-3 nav-justified navAreas"  role="" >
-            <li className="nav-item " />
-                <a className="nav-link tabMenu active">
-                    <div>
-                        TODOS
-                    </div>
-                </a>
-        </ul>
+           {/* <Sedes /> */}
         </div>
         </div>
-        </div>
-        </div>
-     
+
     )
 }
 

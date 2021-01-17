@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Operaciones = () => {
+const Tecnologia = () => {
     return (
         <div>
         <div className="card mb-3 .borderf1" />
@@ -8,7 +8,7 @@ const Operaciones = () => {
               <div className="col-md-2 imgArea" >
                 <div>
                     <div className="txtArea">
-                        Operaciones
+                        Tecnologia
                         <br/>
                         628 36 11
                    </div>
@@ -49,4 +49,4 @@ const Operaciones = () => {
     )
 }
 
-export default Operaciones
+export default Tecnologia
