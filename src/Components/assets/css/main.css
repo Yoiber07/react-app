@@ -1,0 +1,301 @@
+@font-face {
+    font-family: 'Futura LT Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Futura LT Regular'), url('../img/fonts/FuturaLT.woff') format('woff');
+  }
+  @font-face {
+    font-family: 'Futura LT Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Futura LT Bold'), url('../img/fonts/FuturaLT-Bold.woff') format('woff');
+  }
+  
+  body {
+    overflow-x: hidden;
+  }
+  /* header  */
+  
+  .bgNavbar {
+    background: url('../img/hero_in.png') center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-bacgkground-size: cover;
+    background-size: cover;
+    height: 115px;
+    box-shadow: 0px 2px 4px #00000080;
+    padding-left: 148px;
+  }
+  .logoMokheader {
+    width: 100%;
+    
+  }
+  .navbar-nav .nav-link, .menuMobile .nav-link {
+    color: #ffffff !important;
+    font-family: 'Futura LT Regular';
+    border: white 1px solid;
+    border-radius: 4px;
+    margin: 0 2px;
+    text-align: center;
+  }
+  .buscador h1 {
+    padding-top: 15px;
+    font-family: 'Futura LT Bold';
+    font-size: 18px;
+    color: #fff;
+  }
+  .btnNav:hover {
+    background-color: white;
+    color: #ce0f69 !important;
+  }
+  .form-inline.formBuscar {
+    display: inline !important;
+  }
+  .menuPrincipal {
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -ms-flex-preferred-size: auto;
+    flex-basis: 100%;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  
+  /* /header */
+  
+  /* codigos de funciones */
+  .botonCodigos {
+    position: fixed;
+    top: 160px;
+    right: 0px;
+  }
+  div.botonCodigos p a.btn {
+    padding-right: 0px;
+  }
+  .menuCodigos {
+    position: fixed;
+    width: 70%;
+    top: 210px;
+    right: 8%;
+    transform: translateX(-10%);
+    z-index: 888;
+  }
+  .btn.focus, .btn:focus {
+    box-shadow: none;
+  }
+  .botonCollapse {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 2;
+  }
+  .cardCodigos {
+    background-color:#ce0f69;
+  }
+  /* / codigos de funciones */
+  
+  
+  /* contenedor principal */
+  .navAreas {
+    z-index: 888;
+  }
+  .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #ffff;
+    font-family: 'Futura LT Bold';
+    font-size: 33px;
+    background-color: #c20d62;
+    border: 1px solid #ce0f69;
+    box-shadow: 40px 40px 40px #00000080;
+    position: fixed;
+    left: 20px;
+    top: 170px;
+    
+    
+  }
+
+
+  a.tabMenu {
+    color: #ce0f69;
+    font-family: 'Futura LT Regular';
+    text-decoration: none;
+    background-color: white;
+    font-size: 14px;
+    padding: 15px 5px;
+    margin: 5px;
+    min-height: 73px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+  }
+  a.tabMenu:hover {
+    color: #fff;
+    background-color: #ce0f69;
+    border: 1px solid #ce0f69;
+    box-shadow: 0px 2px 4px #00000080;
+  }
+  a.tabMenu div {
+    margin-top: 9px;
+  }
+  /* card container */
+  .tabsContainer {
+    padding: 10px;
+  
+  
+  }
+  .rowNames p {
+    margin-bottom: 0;
+  }
+  .imgArea {
+    background-image: url('../img/hero_in_3.jpg');
+    text-align: center;
+    background-size: cover;
+    height: 500px;
+    box-shadow: 100px 100px 100px;
+    padding-left: 500px;
+  }
+  .txtArea {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-55%);
+  }
+  .txtArea {
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    margin: 10px;
+  }
+  /* /card container */
+  /* menuLateral */
+  .menuLateral {
+    position: fixed;
+    right: 5.55%;
+    top: 31%;
+    z-index: 888;
+  }
+  .btLateral img {
+    width: 35px;
+  }
+  .anchor {
+    position: absolute;
+    transform: translateY(-30vh);
+  }
+  /* /menu lateral */
+  /* sedes contenedor */
+  .sedesContenedor {
+    padding: 20px;
+    margin: 5px;
+    border: 2px solid #ce0f69;
+    font-size: 12px;
+    border-radius: 6px;
+  
+  }
+  .sedestitle {
+    font-weight: 700;
+  
+  }
+  /* /sedes contenedor */
+  /* boton subir */
+  .botonSubir {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+  }
+  .botonSubir img {
+    width: 70%;
+  }
+  .borderf{
+    border: 2px solid #0E1826;
+    border-radius: 10px;
+    
+  }
+  .borderf1{
+    border: 3px solid #0E1826;
+    border-radius: 10px;
+    
+  }
+  .headerN{
+    border: 3px solid #0E1826;
+    background-color: #0E1826;
+    
+  }
+  
+  .menuL{
+    background-color: #0E1826;
+  }
+  
+  
+  /* / boton subir */
+  
+  /* /contenedor principal */
+  /* media querys */
+  @media screen and (max-width:320px) {
+    .bgNavbar {
+      height: 300px;
+    }
+  }
+  @media screen and (min-width: 320px) {
+    .bgNavbar {
+      height: 230px;
+    }
+    .navbar {
+      align-items: start !important;
+    }
+    .buscador {
+      position: absolute;
+      top: 80px;
+      right: 0;
+      left: 0;
+      width: 90%;
+      overflow: hidden;
+      text-align: center;
+      margin: 0 auto;
+    }
+    .menuMobile {
+      display: block;
+      width: 60%;
+      font-size: 10px;
+      margin: 0 2px;
+    }
+    .inputBuscar {
+      width: 90% !important;
+      margin: 0 auto;
+    }
+    .contenedorPrincipal {
+      margin-top: 230px !important;
+      padding-top: 10px;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    .bgNavbar {
+      height: 140px;
+    }
+    .buscador {
+      top: 45px;
+      width: 60%;
+    } 
+    .menuMobile {
+      display: none;
+    }
+    .inputBuscar {
+      width: 70% !important;
+    }
+    .contenedorPrincipal {
+      margin-top: 110px !important;
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    .bgNavbar {
+      height: 115px;
+      padding-top: 21px;
+    
+      
+    }
+    .buscador {
+      top: 5px;
+      width: 40%;
+    }
+    .inputBuscar {
+      width: 77% !important;
+    }
+  }
